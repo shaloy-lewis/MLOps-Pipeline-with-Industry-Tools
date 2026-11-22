@@ -1,0 +1,35 @@
+{
+  "model_class": "LGBMClassifier",
+  "params": {
+    "n_estimators": 650,
+    "learning_rate": 0.018135730867783396,
+    "max_depth": 3,
+    "num_leaves": 107,
+    "min_child_samples": 37,
+    "subsample": 0.8916028672163949,
+    "colsample_bytree": 0.9085081386743783,
+    "reg_alpha": 4.638759594322625e-08,
+    "reg_lambda": 1.683416412018213e-05,
+    "scale_pos_weight": 2.469130644573499
+  },
+  "f1_score": 0.5905,
+  "recall": 0.7401,
+  "auc_roc": 0.8396,
+  "threshold_cost": 0.2,
+  "threshold_f1": 0.52,
+  "selected_at": "2026-04-09T16:04:24",
+  "source": "model_selection.py -- Optuna TPE, 50 trials, 3-fold CV per top-3 candidate",
+  "holdout_metrics_default": {
+    "f1": 0.637,
+    "recall": 0.7782,
+    "precision": 0.5391,
+    "auc_roc": 0.8628,
+    "auc_pr": 0.6324
+  },
+  "holdout_metrics_production": {
+    "f1": 0.5548,
+    "recall": 0.9597,
+    "precision": 0.3902,
+    "total_business_cost": 33600
+  }
+}
